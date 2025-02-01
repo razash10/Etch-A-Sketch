@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 407px;
+    height: 407px;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-container div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
