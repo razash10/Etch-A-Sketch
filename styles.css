@@ -5,11 +5,15 @@
     height: 408px;
     align-content: center;
     justify-content: center;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .flex-container div {
     width: 100px;
     height: 100px;
-    border: 1px solid black;
     text-align: center;
+    opacity: 0.05;
+    background-color: black;
+    border: 1px solid white;
 }
