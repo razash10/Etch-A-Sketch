@@ -27,7 +27,7 @@ function resetGrid() {
     const cells = document.querySelectorAll(".flex-container div");
     cells.forEach(cell => {
         cell.style.backgroundColor = "black";
-        cell.style.opacity = 0.05;
+        cell.style.opacity = 0;
         cell.style.width = `${length}px`;
         cell.style.height = `${length}px`;
     });
