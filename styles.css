@@ -1,8 +1,8 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 408px;
-    height: 408px;
+    width: 400px;
+    height: 400px;
     align-content: center;
     justify-content: center;
     background-color: white;
@@ -13,7 +13,6 @@
     width: 100px;
     height: 100px;
     text-align: center;
-    opacity: 0.05;
+    opacity: 0;
     background-color: black;
-    border: 1px solid white;
 }
